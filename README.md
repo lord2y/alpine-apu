@@ -2,11 +2,11 @@
 
 This repository aim to create an automated and reproducible Alpine Linux ISO 
 for PCEngines APU2.  
-Example has been taken from [here](https://wiki.alpinelinux.org/wiki/How_to_make_a_custom_ISO_image_with_mkimage).
+Inspiration has been taken from [here](https://wiki.alpinelinux.org/wiki/How_to_make_a_custom_ISO_image_with_mkimage).
 
 To build the `.iso` you have to build the container:
 
-    $ make build
+    $ make builder
 
 Once the image is ready you can run the following command:
 
