@@ -1,6 +1,7 @@
 # README
 
-This repository aim to create an automated and reproducible.  
+This repository aim to create an automated and reproducible Alpine Linux ISO 
+for PCEngines APU2.  
 Example has been taken from [here](https://wiki.alpinelinux.org/wiki/How_to_make_a_custom_ISO_image_with_mkimage).
 
 To build the `.iso` you have to build the container:
@@ -15,8 +16,8 @@ Once the image is ready you can run the following command:
  To test the iso you can use QEMU with the following command:
 
     $ qemu-system-x86_64 -enable-kvm -m 1024 \ 
-                         -cdrom alpine-apu-hostapd-x86_64.iso \
-			 -nographic 
+	    		  -cdrom alpine-apu-hostapd-x86_64.iso \
+			  -nographic 
 
 Assuming the name of the iso is `alpine-apu-hostapd-x86_64.iso`.
 
