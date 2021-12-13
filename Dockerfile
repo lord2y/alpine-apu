@@ -8,4 +8,5 @@ RUN apk add alpine-sdk build-base apk-tools alpine-conf busybox fakeroot    \
  && cd ~
 
 COPY mkimg.apu.sh /root/aports/scripts/mkimg.apu.sh 
+COPY genapkovl-apu.sh /root/aports/scripts/genapkovl-apu.sh
 
